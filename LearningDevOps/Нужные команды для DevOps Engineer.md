@@ -509,10 +509,33 @@ grep "pattern" *
 
 ## MkDir
 ### Описание
-Команда
+Команда **[mkdir](https://www.google.com/search?q=mkdir&sca_esv=37a6bd0bd2466e07&sxsrf=ANbL-n7KCtameyT9ztEwmUsrwi2qAqgeFw%3A1772477468877&ei=HNylaYyYNa-owPAP1q_L2Q0&biw=1697&bih=1016&ved=2ahUKEwiCj4_c_YGTAxWmGRAIHYrHHfwQgK4QegQIARAB&uact=5&oq=%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0+mkdir&gs_lp=Egxnd3Mtd2l6LXNlcnAiFNC60L7QvNCw0L3QtNCwIG1rZGlyMgkQABiABBgTGA0yCRAAGIAEGBMYDTIKEAAYExgWGAoYHjIIEAAYExgWGB4yCBAAGBMYFhgeMggQABgTGBYYHjIIEAAYExgWGB4yCBAAGBMYFhgeMggQABiABBiiBDIIEAAYgAQYogRI2w1Q5QVY7AxwAXgBkAEAmAGDAaAB8gOqAQMwLjS4AQPIAQD4AQGYAgWgAoQEwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA3CAgcQLhiABBgNwgIHEAAYgAQYE5gDAIgGAZAGCJIHAzEuNKAHhiCyBwMwLjS4B4AEwgcFMC4yLjPIBw2ACAA&sclient=gws-wiz-serp&mstk=AUtExfAVNXw7W3D9F-OxHEf0a0ikU7DWoqijMuI8rT-4h7SHr99T0cXH5jO-481bZpqkCNxDSx1O04XAQKVgWl8lEJ66Mn3H23RNxCOblDjipa6WkBvKapKjIiIQjDHYJ0smFoMrXzSo3I_Ff-Bj0MHK_N3xy5eDh8x3ozYW1MgjBhYdgNo8gAKSc5erfHurfBjCB7QKFNrA8kSS7UnAQ94P4TW4xjpcF2DIk4OLrmplf3UBrZH-WapPMtc3ZQWx-6Aan8B3equlvIuDPVDWgHaOJ8Kx&csui=3)** (make directory) используется в Linux, macOS, Windows и DOS для создания новых папок (каталогов) через командную строку. Основной синтаксис — `mkdir [имя_каталога]`. Она позволяет создавать одну или несколько директорий сразу, а также вложенные структуры (с ключом `-p`). 
 
-**[mkdir](https://www.google.com/search?q=mkdir&sca_esv=37a6bd0bd2466e07&sxsrf=ANbL-n7KCtameyT9ztEwmUsrwi2qAqgeFw%3A1772477468877&ei=HNylaYyYNa-owPAP1q_L2Q0&biw=1697&bih=1016&ved=2ahUKEwiCj4_c_YGTAxWmGRAIHYrHHfwQgK4QegQIARAB&uact=5&oq=%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0+mkdir&gs_lp=Egxnd3Mtd2l6LXNlcnAiFNC60L7QvNCw0L3QtNCwIG1rZGlyMgkQABiABBgTGA0yCRAAGIAEGBMYDTIKEAAYExgWGAoYHjIIEAAYExgWGB4yCBAAGBMYFhgeMggQABgTGBYYHjIIEAAYExgWGB4yCBAAGBMYFhgeMggQABiABBiiBDIIEAAYgAQYogRI2w1Q5QVY7AxwAXgBkAEAmAGDAaAB8gOqAQMwLjS4AQPIAQD4AQGYAgWgAoQEwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA3CAgcQLhiABBgNwgIHEAAYgAQYE5gDAIgGAZAGCJIHAzEuNKAHhiCyBwMwLjS4B4AEwgcFMC4yLjPIBw2ACAA&sclient=gws-wiz-serp&mstk=AUtExfAVNXw7W3D9F-OxHEf0a0ikU7DWoqijMuI8rT-4h7SHr99T0cXH5jO-481bZpqkCNxDSx1O04XAQKVgWl8lEJ66Mn3H23RNxCOblDjipa6WkBvKapKjIiIQjDHYJ0smFoMrXzSo3I_Ff-Bj0MHK_N3xy5eDh8x3ozYW1MgjBhYdgNo8gAKSc5erfHurfBjCB7QKFNrA8kSS7UnAQ94P4TW4xjpcF2DIk4OLrmplf3UBrZH-WapPMtc3ZQWx-6Aan8B3equlvIuDPVDWgHaOJ8Kx&csui=3)** (make directory) используется в Linux, macOS, Windows и DOS для создания новых папок (каталогов) через командную строку. Основной синтаксис — `mkdir [имя_каталога]`. Она позволяет создавать одну или несколько директорий сразу, а также вложенные структуры (с ключом `-p`). 
-
+Команда входит в состав GNU coreutils и широко применяется в скриптах для организации файловой структуры
 ### Команды
 
+Создать одну папку
+```terminal
+mkdir folder1
+```
+
+Создать несколько папок сразу
+```terminal
+mkdir dir1 dir2 dir3
+```
+
+Создать вложенные папки (родительские)
+```terminal
+mkdir -p /home/user/dir1/dir2
+```
+
+Создать папку с правами доступа
+```terminal
+mkdir -m 777 new_dir
+```
+
+Показать сообщение о создании
+```terminal
+mkdir -v folder
+```
 
