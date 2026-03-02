@@ -101,6 +101,8 @@ maki@lablearning:~$
 /var/www/html/index.nginx-debian.html
 ```
 
+^6eacfc
+
 После изменения мы получаем данную страницу:
 
 # Welcome to Maki DevOps Lab!

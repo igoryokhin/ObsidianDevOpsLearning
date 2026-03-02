@@ -230,8 +230,9 @@
   },
   "active": "d15fcada8672934a",
   "lastOpenFiles": [
-    "LearningDevOps/Topic Linux Permissions & Users.md",
+    "Linux Permissions.md",
     "LearningDevOps/Topic Linux Fundamentals.md",
+    "LearningDevOps/Topic Linux Permissions & Users.md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
     "LearningDevOps/Установка и траблшутинг SSH.md",
@@ -265,7 +266,6 @@
     "LearningDevOps",
     "Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "Нужные команды для DevOps Engineer.md",
-    "Лист доменных имен от сообщества.md",
     "_Canvas/Схема работы с Git.canvas"
   ]
 }
