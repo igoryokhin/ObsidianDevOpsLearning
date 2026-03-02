@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Нужные команды для DevOps Engineer.md",
+                "file": "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Нужные команды для DevOps Engineer"
+              "title": "Git — Основа «Инфраструктуры как Код» (IaC)"
             }
           }
         ]
@@ -33,10 +33,14 @@
             "id": "967966a430daf077",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git — Основа «Инфраструктуры как Код» (IaC)"
             }
           }
         ]
@@ -93,7 +97,7 @@
             }
           },
           {
-            "id": "1b3ea92b0c409940",
+            "id": "7d151c2a92f07d24",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -228,13 +232,14 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "967966a430daf077",
+  "active": "d15fcada8672934a",
   "lastOpenFiles": [
-    "LearningDevOps/LearningDevOps.md",
+    "LearningDevOps/_Canvas/Схема работы с Git.canvas",
+    "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
+    "LearningDevOps/LearningDevOps.md",
     "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
-    "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Изучение Linux.md",
     "Vault.md",
@@ -249,7 +254,6 @@
     "LearningDevOps/livesync_log_2026-03-01.md",
     "LearningDevOps/_Templates",
     "LearningDevOps/_Resources",
-    "LearningDevOps/_Canvas/Схема работы с Git.canvas",
     "LearningDevOps/_Canvas",
     "LearningDevOps/Tags",
     "LearningDevOps/livesync_log_2026-02-28.md",
