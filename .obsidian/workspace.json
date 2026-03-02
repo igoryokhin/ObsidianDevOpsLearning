@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Нужные команды для DevOps Engineer.md",
+                "file": "LearningDevOps/Topic Linux Permissions & Users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Нужные команды для DevOps Engineer"
+              "title": "Topic Linux Permissions & Users"
             }
           }
         ]
@@ -230,11 +230,11 @@
   },
   "active": "d15fcada8672934a",
   "lastOpenFiles": [
-    "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Topic Linux Fundamentals.md",
-    "Linux Permissions.md",
+    "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Topic Linux Permissions & Users.md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
+    "Linux Permissions.md",
     "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
     "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
