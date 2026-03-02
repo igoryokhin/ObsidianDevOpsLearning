@@ -6,7 +6,7 @@
       {
         "id": "81996313395f2a03",
         "type": "tabs",
-        "dimension": 57.04314720812182,
+        "dimension": 57.04314720812183,
         "children": [
           {
             "id": "d15fcada8672934a",
@@ -27,7 +27,7 @@
       {
         "id": "1bd0c4781260b14e",
         "type": "tabs",
-        "dimension": 42.95685279187818,
+        "dimension": 42.95685279187817,
         "children": [
           {
             "id": "967966a430daf077",
@@ -93,7 +93,7 @@
             }
           },
           {
-            "id": "e41bd2adbec1ceb6",
+            "id": "1b3ea92b0c409940",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -212,6 +212,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -227,8 +228,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "d15fcada8672934a",
+  "active": "967966a430daf077",
   "lastOpenFiles": [
+    "LearningDevOps/LearningDevOps.md",
+    "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
@@ -236,14 +239,12 @@
     "LearningDevOps/Изучение Linux.md",
     "Vault.md",
     "Work Las-Vegas/Сущевская ул., 25с1/Tp-Link Archer C64.md",
-    "LearningDevOps/LearningDevOps.md",
     "LearningDevOps/Работа с файловыми логами.md",
     "LearningDevOps/Создание SSH ключа на Windows.md",
     "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
-    "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "LearningDevOps/livesync_log_2026-03-02.md",
     "LearningDevOps/livesync_log_2026-03-01.md",
     "LearningDevOps/_Templates",
