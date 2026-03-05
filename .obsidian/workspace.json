@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Linux Services (Systemd).md",
+                "file": "LearningDevOps/Лист доменных имен от сообщества.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Services (Systemd)"
+              "title": "Лист доменных имен от сообщества"
             }
           }
         ],
@@ -239,14 +239,14 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "f93ed4e66cb20ad2",
+  "active": "01c8473a7d437d4d",
   "lastOpenFiles": [
+    "LearningDevOps/Linux Services (Systemd).md",
     "LearningDevOps/LearningDevOps.md",
     "Vault.md",
     "LearningDevOps/_Resources/Photos/Photos.md",
     "LearningDevOps/_Resources/Photos",
     "Untitled.md",
-    "LearningDevOps/Linux Services (Systemd).md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
