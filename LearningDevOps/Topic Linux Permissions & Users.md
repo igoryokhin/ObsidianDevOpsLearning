@@ -1,4 +1,8 @@
 ---
+title: "Topic Linux Permissions & Users"
+slug: "topic-linux-perm-users"
+---
+---
 aliases:
   - "# Topic: Linux Permissions & Users"
   - "#linux #security #permissions"
