@@ -151,6 +151,17 @@ enabled
 - 2.Какая команда перечитывает конфигурационные файлы юнитов с диска, если ты внес в них изменения?
 -2. daemon-reload
 - 3.Как посмотреть логи сервиса только за последний час через `journalctl`?
+  journalctl -u имя_сервиса --since "1 hour ago" (загуглил)
+  
+  потом нашел в man:
+  
+       -S, --since=, -U, --until=
+           Start showing entries on or newer than the specified date, or on or older than the specified date, respectively. Date specifications should be of the format
+           "2012-10-30 18:17:16". If the time part is omitted, "00:00:00" is assumed. If only the seconds component is omitted, ":00" is assumed. If the date component
+           is omitted, the current day is assumed. Alternatively the strings "yesterday", "today", "tomorrow" are understood, which refer to 00:00:00 of the day before
+           the current day, the current day, or the day after the current day, respectively.  "now" refers to the current time. Finally, relative times may be
+           specified, prefixed with "-" or "+", referring to times before or after the current time, respectively. For complete time and date specification, see
+           systemd.time(7). Note that --output=short-full prints timestamps that follow precisely this format.
   
 
 
