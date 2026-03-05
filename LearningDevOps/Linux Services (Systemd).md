@@ -78,7 +78,58 @@ Mar 05 19:47:16 lablearning sudo[5226]: pam_unix(sudo:session): session opened f
 
 ```
 
+Далее, мы посмотрим на аналог диспетчера задач в Linux. Вот пару команд:
+```terminal
+systemd-cgtop
+```
 
+Вот так она выглядит:
+```terminal
+CGroup                                                                                                                                Tasks   %CPU   Memory  Input/s Output/s
+/                                                                                                                                       252    2.0   387.1M        -        -
+user.slice                                                                                                                               12    1.3    18.4M        -        -
+user.slice/user-1000.slice                                                                                                               12    1.3    18.3M        -        -
+user.slice/user-1000.slice/session-244.scope                                                                                              4    1.3     4.5M        -        -
+system.slice                                                                                                                             55    0.1   710.5M        -        -
+system.slice/open-vm-tools.service                                                                                                        4    0.1     5.4M        -        -
+system.slice/multipathd.service                                                                                                           7    0.0    22.8M        -        -
+system.slice/udisks2.service                                                                                                              6    0.0     7.2M        -        -
+system.slice/fwupd.service                                                                                                                6    0.0    31.6M        -        -
+dev-hugepages.mount                                                                                                                       -      -   120.0K        -        -
+dev-mqueue.mount                                                                                                                          -      -     4.0K        -        -
+init.scope                                                                                                                                1      -     5.0M        -        -
+proc-sys-fs-binfmt_misc.mount                                                                                                             -      -     8.0K        -        -
+sys-fs-fuse-connections.mount                                                                                                             -      -     4.0K        -        -
+sys-kernel-config.mount                                                                                                                   -      -     4.0K        -        -
+sys-kernel-debug.mount                                                                                                                    -      -     4.0K        -        -
+sys-kernel-tracing.mount                                                                                                                  -      -     4.0K        -        -
+system.slice/ModemManager.service                                                                                                         4      -     8.2M        -        -
+system.slice/boot.mount                                                                                                                   -      -   108.0K        -        -
+system.slice/cron.service                                                                                                                 1      -   484.0K        -        -
+system.slice/dbus.service                                                                                                                 1      -     2.2M        -        -
+system.slice/nginx.service                                                                                                                3      -     3.7M        -        -
+system.slice/polkit.service                                                                                                               4      -     5.5M        -        -
+system.slice/rsyslog.service                                                                                                              4      -     3.9M        -        -
+system.slice/ssh.service                                                                                                                  1      -     4.3M        -        -
+system.slice/ssh.socket                                                                                                                   -      -     8.0K        -        -
+system.slice/swap.img.swap                                                                                                                -      -   300.0K        -        -
+system.slice/system-getty.slice                                                                                                           -      -    12.9M        -        -
+system.slice/system-getty.slice/getty@tty1.service                                                                                        -      -    12.9M        -        -
+system.slice/system-modprobe.slice                                                                                                        -      -   116.0K        -        -
+system.slice/system-systemd\x2dfsck.slice                                                                                                 -      -   944.0K        -        -
+system.slice/systemd-journald.service                                                                                                     1      -    30.3M        -        -
+system.slice/systemd-logind.service                                                                                                       1      -     1.8M        -        -
+system.slice/systemd-networkd.service                                                                                                     1      -     3.3M        -        -
+system.slice/systemd-resolved.service                                                                                                     1      -     7.7M        -        -
+```
+
+и вторая команда:
+```terminal
+htop
+```
+
+вот так она выглядит, есть интерактивный CLI:
+![[Pasted image 20260305225020.png]]
 ### Чек-лист
 - [ ] Умею управлять SSH и Firewall через systemctl.
 - [ ] Понимаю, как проверить, почему сервис не запустился.

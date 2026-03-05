@@ -239,12 +239,18 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "01c8473a7d437d4d",
+  "active": "f93ed4e66cb20ad2",
   "lastOpenFiles": [
+    "LearningDevOps/LearningDevOps.md",
+    "Vault.md",
+    "LearningDevOps/_Resources/Photos/Photos.md",
+    "LearningDevOps/_Resources/Photos",
+    "Untitled.md",
+    "LearningDevOps/Linux Services (Systemd).md",
+    "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
-    "LearningDevOps/Linux Services (Systemd).md",
     "LearningDevOps/Topic Linux Fundamentals.md",
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "SSH Access.md",
@@ -266,16 +272,12 @@
     "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/_Canvas/Схема работы с Git.canvas",
-    "LearningDevOps/LearningDevOps.md",
     "LearningDevOps/Изучение Linux.md",
-    "Vault.md",
     "LearningDevOps/livesync_log_2026-03-02.md",
-    "LearningDevOps/livesync_log_2026-03-01.md",
     "LearningDevOps/_Templates",
     "LearningDevOps/_Resources",
     "LearningDevOps/_Canvas",
     "LearningDevOps/Tags",
-    "LearningDevOps/livesync_log_2026-02-28.md",
     "LearningDevOps",
     "_Canvas/Схема работы с Git.canvas"
   ]
