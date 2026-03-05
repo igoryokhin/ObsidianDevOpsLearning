@@ -1,3 +1,8 @@
+---  
+title: "Изучение Linux"  
+slug: "izuchenie-linux"  
+---
+
 ---
 title: "Изучение Linux"
 slug: "izuchenie-linux"
