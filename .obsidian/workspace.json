@@ -6,7 +6,6 @@
       {
         "id": "81996313395f2a03",
         "type": "tabs",
-        "dimension": 57.04314720812183,
         "children": [
           {
             "id": "d15fcada8672934a",
@@ -14,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Topic Linux Permissions & Users.md",
+                "file": "LearningDevOps/Создание SSH ключа на Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic Linux Permissions & Users"
-            }
-          }
-        ]
-      },
-      {
-        "id": "1bd0c4781260b14e",
-        "type": "tabs",
-        "dimension": 42.95685279187817,
-        "children": [
-          {
-            "id": "967966a430daf077",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Создание SSH ключа на Windows"
             }
           }
         ]
@@ -228,9 +210,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "967966a430daf077",
+  "active": "d15fcada8672934a",
   "lastOpenFiles": [
     "LearningDevOps/Topic Linux Permissions & Users.md",
+    "LearningDevOps/Создание SSH ключа на Windows.md",
     "Work Las-Vegas/Мегафон АТС.md",
     "Work Las-Vegas/Сущевская ул., 25с1/Tp-Link Archer C64.md",
     "Work Las-Vegas/Сущевская ул., 25с1/BackUps/BackUps.md",
@@ -253,7 +236,6 @@
     "LearningDevOps/Изучение Linux.md",
     "Vault.md",
     "LearningDevOps/Работа с файловыми логами.md",
-    "LearningDevOps/Создание SSH ключа на Windows.md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/livesync_log_2026-03-02.md",
