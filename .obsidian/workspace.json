@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
+                "file": "LearningDevOps/Таблица прав доступа Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Укрепление безопасности сервера(Hardering)"
+              "title": "Таблица прав доступа Linux"
             }
           }
         ],
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 463.5
   },
   "right": {
     "id": "6c5f6f7eb0da0896",
@@ -241,6 +241,8 @@
   },
   "active": "01c8473a7d437d4d",
   "lastOpenFiles": [
+    "LearningDevOps/Работа с файловыми логами.md",
+    "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Создание SSH ключа на Windows.md",
     "LearningDevOps/Topic Linux Permissions & Users.md",
@@ -256,7 +258,6 @@
     "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "Linux Permissions.md",
-    "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
     "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/_Canvas/Схема работы с Git.canvas",
@@ -264,7 +265,6 @@
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Изучение Linux.md",
     "Vault.md",
-    "LearningDevOps/Работа с файловыми логами.md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/livesync_log_2026-03-02.md",
