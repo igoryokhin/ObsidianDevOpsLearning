@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Topic Linux Fundamentals.md",
+                "file": "LearningDevOps/Изучение Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Topic Linux Fundamentals"
+              "title": "Изучение Linux"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "f7166cfd0d856e5a",
+            "id": "dd3801381b193393",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -213,7 +213,21 @@
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
     "LearningDevOps/Linux Package Management & Bash Basics.md",
+    "LearningDevOps/Практическая работа с логами(Nginx).md",
+    "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
+    "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
+    "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Linux Services (Systemd).md",
+    "LearningDevOps/Изучение Linux.md",
+    "LearningDevOps/Topic Linux Fundamentals.md",
+    "LearningDevOps/Topic Linux Permissions & Users.md",
+    "LearningDevOps/Нужные команды для DevOps Engineer.md",
+    "LearningDevOps/Таблица прав доступа Linux.md",
+    "LearningDevOps/Установка и траблшутинг SSH.md",
+    "LearningDevOps/Создание SSH ключа на Windows.md",
+    "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
+    "LearningDevOps/Работа с файловыми логами.md",
+    "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "Linux Fundamentals.md",
     "Work Las-Vegas/Work Las-Vegas.md",
     "Work Las-Vegas/Сущевская ул., 25с1/Сущевская ул., 25с1.md",
@@ -224,24 +238,10 @@
     "Networking Basics.md",
     "LearningDevOps/LearningDevOps.md",
     "Vault 2.md",
-    "LearningDevOps/Создание SSH ключа на Windows.md",
-    "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
-    "LearningDevOps/Нужные команды для DevOps Engineer.md",
-    "LearningDevOps/Topic Linux Permissions & Users.md",
-    "LearningDevOps/Topic Linux Fundamentals.md",
-    "LearningDevOps/Изучение Linux.md",
-    "LearningDevOps/Лист доменных имен от сообщества.md",
-    "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
-    "LearningDevOps/Практическая работа с логами(Nginx).md",
-    "LearningDevOps/Linux Services (Systemd) 2.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
-    "LearningDevOps/_Templates/_Templates.md",
-    "LearningDevOps/Test.md",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
-    "LearningDevOps/_Resources 2/Photos/Photos.md",
     "LearningDevOps/_Resources 2/Photos",
     "LearningDevOps/_Resources 2",
-    "Vault.md",
     "LearningDevOps/_Resources/Photos",
     "Work Las-Vegas/Сущевская ул., 25с1/BackUps/Archer-C64-1.0_25072963489n_agc3500.bin",
     "Work Las-Vegas/Сущевская ул., 25с1/BackUps",
