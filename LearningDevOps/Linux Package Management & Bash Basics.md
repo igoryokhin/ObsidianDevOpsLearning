@@ -146,3 +146,23 @@ STATUS=$(systemctl  is-active nginx)
 echo "$(date '+%Y-%m-%d %H:%M:%S') - nginx: $STATUS" >> ~/service_logs.txt
 SEX
 ```
+
+Вот такой вывод у нас получился:
+```terminal
+Checking status Nginx...
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2026-03-04 10:02:18 UTC; 2 days ago
+```
+Так же у нас записалось в наш созданный лог:
+```terminal
+maki@lablearning:~/projects/learning/linux$ cat ~/service_logs.txt 
+2026-03-06 17:33:07 - nginx: active
+```
+
+## Контрольные вопросы
+
+1. В чем разница между `apt update` и `apt upgrade`?
+> 1. В чем разница между `apt update` и `apt upgrade`?
+    > Update отвечает за обновления списка пакетов из доверенных репозиториев. 
+2. Зачем в начале Bash-скрипта ставить `#!/bin/bash`?
+3. Какой символ используется для перенаправления вывода команды в файл с полной перезаписью файла?
