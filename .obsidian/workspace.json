@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Linux Package Management & Bash Basics.md",
+                "file": "LearningDevOps/Topic Linux Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Package Management & Bash Basics"
+              "title": "Topic Linux Fundamentals"
             }
           }
         ]
@@ -212,6 +212,7 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "LearningDevOps/Linux Package Management & Bash Basics.md",
     "LearningDevOps/Linux Services (Systemd).md",
     "Linux Fundamentals.md",
     "Work Las-Vegas/Work Las-Vegas.md",
@@ -219,7 +220,6 @@
     "Work Las-Vegas/Мегафон АТС.md",
     "Work Las-Vegas/Сущевская ул., 25с1/Tp-Link Archer C64.md",
     "Work Las-Vegas/Сущевская ул., 25с1/BackUps/BackUps.md",
-    "LearningDevOps/Linux Package Management & Bash Basics.md",
     "LearningDevOps/_Resources/Photos/Photos.md",
     "Networking Basics.md",
     "LearningDevOps/LearningDevOps.md",
