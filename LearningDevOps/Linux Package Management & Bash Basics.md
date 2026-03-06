@@ -10,7 +10,7 @@ tags:
 
 - **Репозиторий**: удаленное хранилище пакетов.
 - **APT (Advanced Package Tool)**: стандартный инструмент управления софтом в Debian/Ubuntu.
-- **Shebang (****#!****)**: первая строка скрипта, указывающая интерпретатор (например, `#!/bin/bash`).
+- **Shebang (****#!****)**: первая строка скрипта, указывающая [интерпретатор](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D1%80%D0%B5%D1%82%D0%B0%D1%82%D0%BE%D1%80) (например, `#!/bin/bash`).
 - **Переменные**: способ хранения данных в скриптах (например, `NAME="Maki"`)
 
 ## Практика
@@ -59,7 +59,17 @@ curl set to manually installed.
 maki@lablearning:~$ 
 ```
 
+### Основные команды APT
+- `sudo apt update` — обновить список доступных пакетов.
+- `sudo apt install <name>` — установить пакет.
+- `sudo apt remove <name>` — удалить пакет.
+[[Нужные команды для DevOps Engineer#^f35110| APT]]
 ### Создание скрипта
+
+> [!example] Основы Bash
+> Скрипт начинается с **Shebang**: `#!/bin/bash`. 
+> Чтобы запустить файл как скрипт, нужны права на исполнение: `chmod +x script.sh`.
+
 Далее создадим скрипт прямо в терминале, который проверяет время работы машины и подключенные диски `/dev` 
 ```terminal
 cat << 'EOF' > ~/projects/learning/linux/check_system.sh
@@ -125,5 +135,14 @@ nginx -v
 
 Далее напишем скрипт по аналогии с практики:
 ```terminal
+cat << 'SEX' > ~/projects/learning/linux/service_manager.sh
+#!/bin/bash
+echo "Checking status Nginx..."
+systemctl status nginx | grep 'Loaded*'
 
+systemctl status nginx | grep 'Active*'
+
+STATUS=$(systemctl  is-active nginx)
+echo "$(date '+%Y-%m-%d %H:%M:%S') - nginx: $STATUS" >> ~/service_logs.txt
+SEX
 ```
