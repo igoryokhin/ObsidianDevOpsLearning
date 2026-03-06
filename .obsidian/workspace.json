@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Изучение Linux.md",
+                "file": "LearningDevOps/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Изучение Linux"
+              "title": "Untitled"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "ef18525f80b776a7",
+            "id": "b258c76b920e95da",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -212,13 +212,14 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "LearningDevOps/Изучение Linux.md",
+    "LearningDevOps/Untitled.md",
     "LearningDevOps/Linux Package Management & Bash Basics.md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Linux Services (Systemd).md",
-    "LearningDevOps/Изучение Linux.md",
     "LearningDevOps/Topic Linux Fundamentals.md",
     "LearningDevOps/Topic Linux Permissions & Users.md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
@@ -237,7 +238,6 @@
     "LearningDevOps/_Resources/Photos/Photos.md",
     "Networking Basics.md",
     "LearningDevOps/LearningDevOps.md",
-    "Vault 2.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos",
