@@ -59,3 +59,14 @@ maki@lablearning:~$
 ```
 
 ### Создание скрипта
+Далее создадим скрипт который проверяет время работы машины и подключенные диски `/dev` 
+```terminal
+cat << 'EOF' > ~/projects/learning/linux/check_system.sh
+#!/bin/bash
+echo "Checking system status for user: $USER"
+uptime
+df -h | grep '^/dev/'
+EOF
+```
+
+После чего мы выдаем права на выполнение 
