@@ -100,4 +100,30 @@ maki@lablearning:~/projects/learning/linux$
     - Записывает текущую дату и статус в файл `~/service_logs.txt` (используй `>>` для дозаписи).
 3. Сделай скрипт исполняемым и запусти его. **Ожидаемый результат**: Установленный Nginx и созданный файл лога с записью о его статусе. **Как проверить себя**: После запуска скрипта проверь содержимое файла: `cat ~/service_logs.txt`
 
-$
+### Выполнение
+ 
+ Устанавливаем Nginx если он не установлен:
+ ```terminal
+ sudo apt install nginx
+ ```
+
+В моем случае он уже был установлен:
+```terminal
+maki@lablearning:~/projects/learning/linux$ sudo apt install nginx
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+nginx is already the newest version (1.24.0-2ubuntu7.6).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+maki@lablearning:~/projects/learning/linux$ 
+```
+
+В ином случае рекомендую вызвать nginx и проверить версию, так мы будем знать что сервис видит наши команды и живет своей спокойной жизнью:
+```terminal
+nginx -v
+```
+
+Далее напишем скрипт по аналогии с практики:
+```terminal
+
+```
