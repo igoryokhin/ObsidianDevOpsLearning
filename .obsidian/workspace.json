@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Untitled.md",
+                "file": "LearningDevOps/Полное руководство Quartz + Obsidian на собственном сервере с автообновлением.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Полное руководство Quartz + Obsidian на собственном сервере с автообновлением"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "b258c76b920e95da",
+            "id": "27af7dba44fd4b8a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -212,9 +212,10 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "LearningDevOps/Untitled.md",
+    "LearningDevOps/Полное руководство Quartz + Obsidian на собственном сервере с автообновлением.md",
     "LearningDevOps/Test",
     "LearningDevOps/Изучение Linux.md",
-    "LearningDevOps/Untitled.md",
     "LearningDevOps/Linux Package Management & Bash Basics.md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
@@ -250,7 +251,6 @@
     "LearningDevOps/_Resources/_Canvas/Схема работы с Git.canvas",
     "LearningDevOps/_Templates",
     "LearningDevOps/_Resources",
-    "LearningDevOps/_Resources/_Canvas",
     "_Canvas/Схема работы с Git.canvas"
   ]
 }
