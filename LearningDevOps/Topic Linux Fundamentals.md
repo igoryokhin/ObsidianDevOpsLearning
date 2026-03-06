@@ -1,9 +1,5 @@
----
-title: "Topic Linux Fundamentals"
-slug: "topic-linux-Fundamentals"
-slug: topic-linux-Fundamentals
-title: Git — Основа «Инфраструктуры как Код» (IaC)
----
+
+
 ---
 aliases:
   - "Topic: Linux Fundamentals"

@@ -104,7 +104,7 @@
             }
           },
           {
-            "id": "f93ed4e66cb20ad2",
+            "id": "f7166cfd0d856e5a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -241,6 +241,12 @@
   },
   "active": "01c8473a7d437d4d",
   "lastOpenFiles": [
+    "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
+    "LearningDevOps/_Resources 2/Photos/Photos.md",
+    "LearningDevOps/Linux Services (Systemd) 2.md",
+    "Vault 2.md",
+    "LearningDevOps/_Resources 2/Photos",
+    "LearningDevOps/_Resources 2",
     "LearningDevOps/Linux Services (Systemd).md",
     "LearningDevOps/LearningDevOps.md",
     "Vault.md",
@@ -269,16 +275,10 @@
     "Work Las-Vegas",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "Linux Permissions.md",
-    "LearningDevOps/Установка и траблшутинг SSH.md",
-    "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/_Canvas/Схема работы с Git.canvas",
-    "LearningDevOps/Изучение Linux.md",
-    "LearningDevOps/livesync_log_2026-03-02.md",
     "LearningDevOps/_Templates",
     "LearningDevOps/_Resources",
     "LearningDevOps/_Canvas",
-    "LearningDevOps/Tags",
-    "LearningDevOps",
     "_Canvas/Схема работы с Git.canvas"
   ]
 }
