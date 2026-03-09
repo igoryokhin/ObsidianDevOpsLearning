@@ -19,5 +19,20 @@
 sudo apt update && sudo apt install htop -y
 ```
 
-После установки вызв
+После установки вызваем `htop`:
+```terminal
+htop
+```
+
+Вот что мы увидим при вызове диспетчера задач(# Посмотри на загрузку ядер и потребление памяти. Нажми F10 для выхода.):
+![[Pasted image 20260309202034.png]]
+
+Далее используем полезную команду для проверки увесестых папок:
+```terminal
+sudo du -sh /var/log/* | sort -rh | head -n 5 
+```
+
+
+
+
 **Tags**: #linux #monitoring #troubleshooting
