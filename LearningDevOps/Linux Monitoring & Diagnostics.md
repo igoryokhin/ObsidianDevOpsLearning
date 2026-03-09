@@ -21,6 +21,9 @@
 > [!example] Полезные фишки
 > - `uptime` — время работы сервера и Load Average.
 > - `journalctl -p 3 -xb` — посмотреть только ошибки в логах с момента последней загрузки.
+> - `uname -r` — версия ядра. 
+> - `free -h` — остаток RAM. 
+> - `ps aux --sort=-%cpu` — кто больше всех ест процессор.
 
   
 ## Практика
@@ -169,7 +172,7 @@ maki@lablearning:~$
 - [ ] Проверить свободное место (`df -h`).
 - [ ] Найти аномальные процессы через `htop`.
 
-**Связанные заметки**: [[Systemd Services]], [[Bash Scripts]]
+**Связанные заметки**: [[Systemd Services]], [[Bash Scripts]], [[Linux Fundamentals]], [[Systemd Services]]
 ---
 
 **Tags**: #linux #monitoring #troubleshooting
