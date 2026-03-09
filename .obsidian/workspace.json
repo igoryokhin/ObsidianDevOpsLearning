@@ -11,14 +11,12 @@
             "id": "67d11b8d1bc233fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "LearningDevOps/Linux Monitoring & Diagnostics.md",
-                "mode": "source",
-                "source": false
+                "path": "LearningDevOps/_Resources/_Canvas"
               },
               "icon": "lucide-file",
-              "title": "Linux Monitoring & Diagnostics"
+              "title": "_Canvas"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "4dd173eafa464e1d",
+            "id": "18923088b108915f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -210,8 +208,9 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "4dd173eafa464e1d",
+  "active": "18923088b108915f",
   "lastOpenFiles": [
+    "LearningDevOps/Linux Monitoring & Diagnostics.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309214331.png",
     "LearningDevOps/Linux Services (Systemd).md",
     "LearningDevOps/Изучение Linux.md",
@@ -223,7 +222,6 @@
     "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Работа с файловыми логами.md",
     "LearningDevOps/Linux Package Management & Bash Basics.md",
-    "LearningDevOps/Linux Monitoring & Diagnostics.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309211035.png",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309211008.png",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309210619.png",
