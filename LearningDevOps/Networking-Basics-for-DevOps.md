@@ -60,6 +60,35 @@ maki@lablearning:~$ ip addr
 maki@lablearning:~$ 
 ```
 
+Вывод команды `ip route`:
+```terminal
+maki@lablearning:~$ ip route
+default via 192.168.101.1 dev ens160 proto dhcp src 192.168.101.131 metric 100 
+192.168.101.0/24 dev ens160 proto kernel scope link src 192.168.101.131 metric 100 
+192.168.101.1 dev ens160 proto dhcp scope link src 192.168.101.131 metric 100 
+maki@lablearning:~$ 
+```
+
+Вывод команды `ss -tunlp`:
+```terminal
+maki@lablearning:~$ ss -tunlp
+Netid        State         Recv-Q        Send-Q                                   Local Address:Port                  Peer Address:Port        Process        
+udp          UNCONN        0             0                                           127.0.0.54:53                         0.0.0.0:*                          
+udp          UNCONN        0             0                                        127.0.0.53%lo:53                         0.0.0.0:*                          
+udp          UNCONN        0             0                               192.168.101.131%ens160:68                         0.0.0.0:*                          
+udp          UNCONN        0             0                    [fe80::20c:29ff:feff:6d2c]%ens160:546                           [::]:*                          
+tcp          LISTEN        0             4096                                     127.0.0.53%lo:53                         0.0.0.0:*                          
+tcp          LISTEN        0             4096                                        127.0.0.54:53                         0.0.0.0:*                          
+tcp          LISTEN        0             4096                                           0.0.0.0:23784                      0.0.0.0:*                          
+tcp          LISTEN        0             511                                            0.0.0.0:80                         0.0.0.0:*                          
+tcp          LISTEN        0             4096                                              [::]:23784                         [::]:*                          
+tcp          LISTEN        0             511                                               [::]:80                            [::]:*                          
+maki@lablearning:~$ 
+```
+
+Вывод команды `cat /etc/resolv.conf`:
+```terminal
+```
 ### Чек-лист
 - [ ] Знаю свой локальный и внешний IP.
 - [ ] Понимаю, как работает разрешение имен (DNS).
