@@ -88,7 +88,66 @@ maki@lablearning:~$
 
 Вывод команды `cat /etc/resolv.conf`:
 ```terminal
+maki@lablearning:~$ cat /etc/resolv.conf
+# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "resolvectl status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0 trust-ad
+search lan
+maki@lablearning:~$ 
 ```
+
+Вывод команды `curl -I http://loclhost:80`
+```terminal
+maki@lablearning:~$ curl -I http://localhost:80
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Tue, 10 Mar 2026 17:30:57 GMT
+Content-Type: text/html
+Content-Length: 635
+Last-Modified: Sat, 28 Feb 2026 12:42:04 GMT
+Connection: keep-alive
+ETag: "69a2e29c-27b"
+Accept-Ranges: bytes
+
+maki@lablearning:~$ 
+```
+
+## Задание
+
+**Цель**: Разобраться в сетевой конфигурации своего окружения. **Шаги**:
+
+1. Узнай свой **локальный IP** внутри ВМ.
+	 Можно узнать при помощи `ip addr`.
+	 В моем случае это интерфейс ens160:
+	 ens160: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:0c:29:ff:6d:2c brd ff:ff:ff:ff:ff:ff
+    altname enp3s0
+    inet 192.168.101.131/24 metric 100 brd 192.168.101.255 scope global dynamic ens160
+2. Узнай свой **внешний IP** (используй `curl ifconfig.me`).
+	 Получил такой ответ: 
+	 maki@lablearning:~$ curl ifconfig.me 80.87.144.133
+3. Проверь, через какой DNS-сервер разрешается имя `google.com` (команда `dig google.com` или `nslookup google.com`).
+	 Зачастую я использую ifconfig
+4. Попробуй просканировать порты своей ВМ со своего основного Windows-компьютера (используй команду `Test-NetConnection -ComputerName IP_ТВОЕЙ_ВМ -Port 80` в PowerShell). **Ожидаемый результат**: Список IP, понимание, какой DNS отвечает за запросы, и подтверждение доступности Nginx снаружи. **Как проверить себя**: Если `Test-NetConnection` на Windows пишет `TcpTestSucceeded : True`, значит, твой Firewall (UFW) настроен верно и сеть работает.
 ### Чек-лист
 - [ ] Знаю свой локальный и внешний IP.
 - [ ] Понимаю, как работает разрешение имен (DNS).
