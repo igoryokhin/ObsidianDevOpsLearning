@@ -146,8 +146,49 @@ maki@lablearning:~$
 	 Получил такой ответ: 
 	 maki@lablearning:~$ curl ifconfig.me 80.87.144.133
 3. Проверь, через какой DNS-сервер разрешается имя `google.com` (команда `dig google.com` или `nslookup google.com`).
-	 Зачастую я использую ifconfig
+	 Зачастую я использую `nslookup`.
+	 maki@lablearning:~$ dig google.com
+	 ; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> google.com
+	 ;; global options: +cmd
+	 ;; Got answer:
+	 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27367
+	 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+	 ;; OPT PSEUDOSECTION:
+	 ; EDNS: version: 0, flags:; udp: 65494
+	 ;; QUESTION SECTION:
+	 ;google.com.                    IN      A
+	 ;; ANSWER SECTION:
+	 google.com.             261     IN      A       142.251.143.142
+	 ;; Query time: 437 msec
+	 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+	 ;; WHEN: Tue Mar 10 17:35:19 UTC 2026
+	 ;; MSG SIZE  rcvd: 55
+	 maki@lablearning:~$ nslookup google.com
+	 Server:         127.0.0.53
+	 Address:        127.0.0.53#53
+	 Non-authoritative answer:
+	 Name:   google.com
+	 Address: 142.251.143.142
+	 Name:   google.com
+	 Address: ::
+	 maki@lablearning:~$ 
 4. Попробуй просканировать порты своей ВМ со своего основного Windows-компьютера (используй команду `Test-NetConnection -ComputerName IP_ТВОЕЙ_ВМ -Port 80` в PowerShell). **Ожидаемый результат**: Список IP, понимание, какой DNS отвечает за запросы, и подтверждение доступности Nginx снаружи. **Как проверить себя**: Если `Test-NetConnection` на Windows пишет `TcpTestSucceeded : True`, значит, твой Firewall (UFW) настроен верно и сеть работает.
+	 PS C:\WINDOWS\System32> Test-NetConnection -ComputerName 192.168.101.131 -Port 80
+	 ComputerName     : 192.168.101.131
+	 RemoteAddress    : 192.168.101.131
+	 RemotePort       : 80
+	 InterfaceAlias   : Wi-Fi
+	 SourceAddress    : 192.168.101.201
+	 TcpTestSucceeded : True
+	 PS C:\WINDOWS\System32>
+
+## Контрольные вопросы
+
+1. На каком уровне модели OSI работает протокол **HTTP** (L3, L4 или L7)?
+	 На L7
+2. В чем разница между портами **80** и **443**?
+	 Порт 80 олтвечает за 
+3. Какая запись в файле `/etc/hosts` позволит тебе обращаться к своей ВМ по имени `myserver.local`?
 ### Чек-лист
 - [ ] Знаю свой локальный и внешний IP.
 - [ ] Понимаю, как работает разрешение имен (DNS).
