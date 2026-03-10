@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "18923088b108915f",
+            "id": "168df48f942adcfe",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -208,8 +208,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "18923088b108915f",
+  "active": "d94f7d7ac5931261",
   "lastOpenFiles": [
+    "Work Las-Vegas/Quick Deal Proxy.md",
+    "Work Las-Vegas/Ростелеком камеры 2.md",
     "LearningDevOps/Linux Monitoring & Diagnostics.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309214331.png",
     "LearningDevOps/Linux Services (Systemd).md",
