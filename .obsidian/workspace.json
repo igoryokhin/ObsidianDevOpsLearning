@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Nginx-as-Reverse-Proxy"
             }
+          },
+          {
+            "id": "8b5f851860debbd1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -212,8 +222,10 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
-    "LearningDevOps/Networking-Basics-for-DevOps.md",
+    "LearningDevOps/_Resources/_Canvas 2/Схема работы с Git.canvas",
+    "LearningDevOps/_Templates/_Templates.md",
     "LearningDevOps/Nginx-as-Reverse-Proxy.md",
+    "LearningDevOps/Networking-Basics-for-DevOps.md",
     "Untitled.md",
     "LearningDevOps/Linux Monitoring & Diagnostics.md",
     "Work Las-Vegas/Quick Deal .md",
@@ -239,15 +251,12 @@
     "LearningDevOps/_Resources/Photos/Pasted image 20260309205703.png",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309202034.png",
     "LearningDevOps/Полное руководство Quartz + Obsidian на собственном сервере с автообновлением.md",
-    "LearningDevOps/_Templates/_Templates.md",
-    "LearningDevOps/_Resources/_Canvas 2/Схема работы с Git.canvas",
     "LearningDevOps/_Resources/_Canvas 2",
     "LearningDevOps/Test",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/Лист доменных имен от сообщества.md",
-    "LearningDevOps/Создание SSH ключа на Windows.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos",
