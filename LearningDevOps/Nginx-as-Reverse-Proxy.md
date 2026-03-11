@@ -38,6 +38,31 @@ server {
 }
 ```
 
+Чистим конфиг полностью и пишем это:
+```terminal
+server {
+
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location /google {
+        proxy_pass http://google.com/;
+
+        proxy_set_header Host google.com;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+```
 ## Задание
 
 **Цель**: Настроить Nginx как прокси-сервер.
