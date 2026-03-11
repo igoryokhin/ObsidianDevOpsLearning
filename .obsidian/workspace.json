@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "168df48f942adcfe",
+            "id": "f72d3898264372f0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -212,6 +212,7 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "Untitled.md",
     "LearningDevOps/Linux Monitoring & Diagnostics.md",
     "LearningDevOps/Networking-Basics-for-DevOps.md",
     "Work Las-Vegas/Quick Deal .md",
@@ -247,7 +248,6 @@
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Создание SSH ключа на Windows.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
-    "Linux Fundamentals.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos",
