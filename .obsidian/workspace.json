@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "091d4a778109a280",
+            "id": "675c0abea4dd9f19",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -216,8 +216,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-livesync:P2P Replicator": false,
       "obsidian-livesync:Show Log": false,
-      "obsidian-livesync:Replicate": false,
-      "obsidian-livesync:Show Customization sync": false
+      "obsidian-livesync:Replicate": false
     }
   },
   "active": "67d11b8d1bc233fb",
