@@ -23,6 +23,31 @@
 > 3. `git commit -m "сообщение"` — фиксация изменений.
 > 4. `git log` — просмотр истории коммитов.
 
+## Практика (минимальный рабочий пример)
+
+Создадим локальный репозиторий для твоих скриптов:
+```
+# Установи git, если его еще нет
+sudo apt update && sudo apt install git -y
+
+# Настрой имя и почту (обязательно для истории коммитов)
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# Инициализируй репозиторий в папке со скриптами
+cd ~/projects/learning/linux
+git init
+
+# Проверь статус (увидишь свои .sh файлы как untracked)
+git status
+
+# Добавь файл в индекс и закоммить
+git add service_manager.sh
+git commit -m "feat: add service manager script"
+
+# Посмотри историю
+git log --oneline
+```
 
 ## Чек-лист
 - [ ] Настроены глобальные параметры `user.name` и `user.email`.
