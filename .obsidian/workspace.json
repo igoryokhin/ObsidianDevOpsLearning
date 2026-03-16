@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Лист доменных имен от сообщества.md",
+                "file": "LearningDevOps/Git Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лист доменных имен от сообщества"
+              "title": "Git Fundamentals"
             }
           },
           {
@@ -216,11 +216,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-livesync:P2P Replicator": false,
       "obsidian-livesync:Show Log": false,
-      "obsidian-livesync:Replicate": false
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show Customization sync": false
     }
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "LearningDevOps/Лист доменных имен от сообщества.md",
+    "LearningDevOps/Git Fundamentals.md",
     "LearningDevOps/Nginx-as-Reverse-Proxy.md",
     "LearningDevOps/_Templates.md",
     "LearningDevOps/_Resources/_Canvas 2/Схема работы с Git.canvas",
@@ -255,7 +258,6 @@
     "LearningDevOps/Test",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
-    "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos",
