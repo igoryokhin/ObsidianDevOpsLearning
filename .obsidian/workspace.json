@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "150cbeae472353f3",
+            "id": "837d84d60ade4f71",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -204,6 +204,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-livesync:Show Customization sync": false,
       "obsidian-git:Open Git source control": false,
       "local-backup:Run local backup": false,
       "switcher:Open quick switcher": false,
@@ -221,6 +222,10 @@
   },
   "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
+    "Work Las-Vegas/Арбат/Linux.md",
+    "Work Las-Vegas/Сущевская ул., 25с1/REG.RU.md",
+    "Work Las-Vegas/Арбат/DELL Server.md",
+    "Work Las-Vegas/Арбат",
     "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Git Fundamentals.md",
     "LearningDevOps/Nginx-as-Reverse-Proxy.md",
@@ -252,11 +257,8 @@
     "Vault.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309205703.png",
     "LearningDevOps/_Resources/Photos/Pasted image 20260309202034.png",
-    "LearningDevOps/Полное руководство Quartz + Obsidian на собственном сервере с автообновлением.md",
     "LearningDevOps/_Resources/_Canvas 2",
     "LearningDevOps/Test",
-    "LearningDevOps/Практическая работа с логами(Nginx).md",
-    "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/_Resources/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos/Pasted image 20260305225020.png",
     "LearningDevOps/_Resources 2/Photos",
@@ -267,7 +269,6 @@
     "Work Las-Vegas/Сущевская ул., 25с1",
     "Work Las-Vegas",
     "LearningDevOps/_Resources/_Canvas/Схема работы с Git.canvas",
-    "LearningDevOps/_Templates",
     "_Canvas/Схема работы с Git.canvas"
   ]
 }
