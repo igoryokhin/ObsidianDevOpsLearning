@@ -11,12 +11,14 @@
             "id": "67d11b8d1bc233fb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Work Las-Vegas"
+                "file": "Work Las-Vegas/Арбат/DELL Server.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Work Las-Vegas"
+              "title": "DELL Server"
             }
           },
           {
@@ -83,7 +85,7 @@
             }
           },
           {
-            "id": "837d84d60ade4f71",
+            "id": "932a4068882e5c24",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -218,7 +220,7 @@
       "obsidian-livesync:Replicate": false
     }
   },
-  "active": "837d84d60ade4f71",
+  "active": "67d11b8d1bc233fb",
   "lastOpenFiles": [
     "Work Las-Vegas/Work Las-Vegas.md",
     "Work Las-Vegas/Quick Deal .md",
