@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LearningDevOps/Лист доменных имен от сообщества.md",
+                "file": "LearningDevOps/Создание SSH ключа на Windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Лист доменных имен от сообщества"
+              "title": "Создание SSH ключа на Windows"
             }
           }
         ],
@@ -232,20 +232,20 @@
   },
   "active": "8b5f851860debbd1",
   "lastOpenFiles": [
+    "LearningDevOps/Таблица прав доступа Linux.md",
+    "LearningDevOps/Установка и траблшутинг SSH.md",
+    "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Пакетный менеджер и Веб-сервер (Nginx).md",
     "LearningDevOps/Передача SSH ключа на Linux сервер и авторизация по ключу.md",
     "LearningDevOps/Изучение Linux.md",
     "LearningDevOps/Git — Основа «Инфраструктуры как Код» (IaC).md",
     "LearningDevOps/Работа с файловыми логами.md",
     "LearningDevOps/Создание SSH ключа на Windows.md",
-    "LearningDevOps/Таблица прав доступа Linux.md",
     "LearningDevOps/Укрепление безопасности сервера(Hardering).md",
-    "LearningDevOps/Установка и траблшутинг SSH.md",
     "LearningDevOps/Нужные команды для DevOps Engineer.md",
     "LearningDevOps/Topic Linux Permissions & Users.md",
     "LearningDevOps/Topic Linux Fundamentals.md",
     "LearningDevOps/Linux Services (Systemd).md",
-    "LearningDevOps/Лист доменных имен от сообщества.md",
     "LearningDevOps/Практическая работа с логами(Nginx).md",
     "LearningDevOps/Полное руководство Quartz + Obsidian на собственном сервере с автообновлением.md",
     "LearningDevOps/Linux Package Management & Bash Basics.md",
